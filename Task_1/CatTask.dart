@@ -1,0 +1,12 @@
+import 'dart:io';
+
+void main(List<String> args) {
+  print("Enter the sentence : ");
+  String? sentence = stdin.readLineSync();
+  List words = sentence!.split(' ');
+  List reversesentence = [];
+  for (var i = words.length-1; i >= 0; i--) {
+    reversesentence.add(words[i]);
+  }
+  print(reversesentence.join(' '));
+} 
