@@ -13,4 +13,4 @@ void main(List<String> args) {
 
 
 // NOTE :
-// We can implement it using the stack, but I need to review it at the moment, which I can’t do because of my final exams.
+// We can implement it using the stack.
